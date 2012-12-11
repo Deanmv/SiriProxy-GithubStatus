@@ -10,7 +10,7 @@ First you will need to install Siri Proxy and when up and running drop this plug
 
 `~/SiriProxy/plugins/`
 
-Drop this into you `~/.siriproxy/config.yml` file:
+Drop this into your `~/.siriproxy/config.yml` file:
 
 	- name: 'Git'
 	  git: 'git://github.com/Deanmv/SiriProxy-GithubStatus.git'
@@ -27,6 +27,10 @@ Will return the current status of GitHub according to the API.
 'The hubs last update'
 
 Will return the time that the last status update was posted according to the API.
+
+'The hubs last message'
+
+Will return the last human communication into the status API, including: the message they entered, the status that it was then and the time that was.
 
 
 Legal Bits

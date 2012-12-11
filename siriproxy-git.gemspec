@@ -1,9 +1,8 @@
-# -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "siriproxy-git"
-  s.version     = "1.0.0" 
+  s.version     = "1.1.0" 
   s.authors     = ["Dean Vizer"]
   s.email       = ["Dean@Deanvizer.com"]
   s.homepage    = "http://www.deanvizer.com"
