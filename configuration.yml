@@ -1,0 +1,6 @@
+#Changing settings here have no effect.  Please copy and paste this into ~/.siriproxy to make the configurations work.
+
+- name: 'GitHub'
+  git: 'git://github.com/Deanmv/SiriProxy-GithubStatus.git'
+
+#Then update with 'rvmsudo siriproxy bundle'
