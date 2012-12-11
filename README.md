@@ -12,8 +12,8 @@ First you will need to install Siri Proxy and when up and running drop this plug
 
 Drop this into you `~/.siriproxy/config.yml` file:
 
-' - name: 'Git'' 
-   'git: 'git://github.com/Deanmv/SiriProxy-GithubStatus.git''
+	- name: 'Git'
+	  git: 'git://github.com/Deanmv/SiriProxy-GithubStatus.git'
 
 Then rebundle siriproxy and you are off!
 
@@ -21,9 +21,11 @@ Commands
 --------
 
 'The hubs current status'
+
 Will return the current status of GitHub according to the API.
 
 'The hubs last update'
+
 Will return the time that the last status update was posted according to the API.
 
 
